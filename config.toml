@@ -1,9 +1,9 @@
-baseURL = "http://example.org/"
+baseURL = "https://auryn.netify.com/"
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "en"
 # language code
 languageCode = "en"
-title = "My New Hugo Site"
+title = "Auryn's Blog"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
@@ -28,6 +28,11 @@ theme = "LoveIt"
       message = "Please allow the cookie usage to optimize my blog"
       dismiss = "Thanks"
       link = "Cookies"
+  [params.page.code]
+      # whether to show the copy button of the code block
+      copy = true
+      # the maximum number of lines of displayed code by default
+      maxShownLines = 10
 
 [menu]
   [[menu.main]]
