@@ -11,6 +11,23 @@ theme = "LoveIt"
 [params]
   # LoveIt theme version
   version = "0.2.X"
+  defaultTheme = "auto"
+  keywords = ["Theme", "Hugo"]
+
+  [params.analytics]
+    enable = true
+    # Google Analytics
+    [params.analytics.google]
+      id = "G-Q2W252LSJR"
+      # whether to anonymize IP
+      anonymizeIP = true
+  [params.cookieconsent]
+    enable = true
+    # text strings used for Cookie consent banner
+    [params.cookieconsent.content]
+      message = "Please allow the cookie usage to optimize my blog"
+      dismiss = "Thanks"
+      link = "Cookies"
 
 [menu]
   [[menu.main]]
