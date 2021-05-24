@@ -4,11 +4,10 @@ date: 2019-04-26T15:52:23+02:00
 draft: false
 subtitle: ""
 author: "Auryn Engel"
-authorLink: ""
-description: ""
+authorLink: "/about"
 
 tags: ["Wildfly", "Coding", "Java"]
-categories: ["Coding"]
+categories: ["Development"]
 
 hiddenFromHomePage: false
 
@@ -139,3 +138,5 @@ wildfly2_1  | ... INFO  [org.infinispan.CLUSTER] (remote-thread--p6-t2) [Context
 You can reach helloworld.war at localhost:8080/helloworld/HelloWorld and localhost:8081/helloworld/HelloWorld (the two ports that are forwarded to the host machine).
 
 The used code and the example can be found in the following [Github-Repo](https://github.com/auryn31/wildfly-cluster-docker-example).
+
+Photo by [Guillaume Bolduc](https://unsplash.com/@guibolduc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/container?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
