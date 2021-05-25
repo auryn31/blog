@@ -31,6 +31,6 @@ So I thought to myself, how hard can it be to download the books automatically. 
 
 To automate a website I use Selenium to control Chrome (you need to install ChromeDriver). So the first step is to create an instance of Chrome and call the corresponding URL.
 
-![start](/img/downloading_files_using_python/img/start.png "Open Chrome")
+![start](/img/downloading_files_using_python/start.png "Open Chrome")
 
 The result then looks like this:
