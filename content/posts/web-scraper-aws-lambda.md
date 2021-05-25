@@ -1,14 +1,14 @@
 ---
 title: "HowTo: Create web-scraper with AWS Lambda"
 subtitle: ""
-date: 2020-09-25T13:39:32+02:00
+date: 2019-09-25T13:39:32+02:00
 lastmod: 2021-05-25T13:39:32+02:00
 draft: false
 author: "Auryn Engel"
 authorLink: "/about"
 
 tags: ["Tutorial", "HowTo", "AWS"]
-categories: []
+categories: ["Development"]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
