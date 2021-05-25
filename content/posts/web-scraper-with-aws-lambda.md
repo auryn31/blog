@@ -1,5 +1,5 @@
 ---
-title: "HowTo: Create web-scraper with AWS Lambda"
+title: "HowTo: Create a web-scraper with AWS Lambda"
 subtitle: ""
 date: 2019-09-25T13:39:32+02:00
 lastmod: 2021-05-25T13:39:32+02:00

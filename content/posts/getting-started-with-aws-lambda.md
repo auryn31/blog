@@ -1,6 +1,6 @@
 ---
 title: "HowTo: Getting started with AWS Lambda"
-subtitle: ""
+subtitle: "Create your first AWS Lambda function"
 date: 2019-09-21T14:12:35+02:00
 lastmod: 2021-05-25T14:12:35+02:00
 draft: false
