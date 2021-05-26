@@ -80,3 +80,7 @@ menu:
           name: tags
           url: /tags/
           weight: 20
+        - identifier: me
+          name: me
+          url: /about/
+          weight: 30
