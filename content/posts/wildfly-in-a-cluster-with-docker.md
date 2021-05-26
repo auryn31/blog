@@ -11,8 +11,8 @@ categories: ["Development"]
 
 hiddenFromHomePage: false
 
-featuredImage: "/img/container.jpg"
-featuredImagePreview: "/img/container.jpg"
+# featuredImage: "/img/container.jpg"
+# featuredImagePreview: "/img/container.jpg"
 
 lightgallery: true
 ---
