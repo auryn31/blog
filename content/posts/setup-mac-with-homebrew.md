@@ -27,8 +27,7 @@ license: ""
 Every time I get a new Mac, I get upset that I have to set it up again.
 <!--more-->
 
-Yeah, I could just use the time machine mackup. But this would bring me a lot of files and data on the new fresh Mac, which I don’t need there. A script would be much more comfortable here. One that 
-installs and configures all programs and tools as I need them.
+Yeah, I could just use the time machine mackup. But this would bring me a lot of files and data on the new fresh Mac, which I don’t need there. A script would be much more comfortable here. One that installs and configures all programs and tools as I need them.
 
 Now that I’m about to change my employer and know I need to set up a new Mac, I created one this time.
 

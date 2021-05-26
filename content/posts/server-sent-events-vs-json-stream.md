@@ -32,7 +32,7 @@ I will provide the code for the post on a GitHub repo.
 Wikipedia defines Server Sent Events (SSE) as follows:
 
 > Server-sent events (SSE) is a server push technology enabling a browser to receive automatic updates from a server via HTTP connection. The Server-Sent Events EventSource API is standardized as part of HTML5 by the W3C.
-> 
+>
 > -- <cite>Wikipedia</cite>
 
 SSE is similar to WebSockets, but they are unidirectional. With classic WebSockets, the client can also send data to the server. This is not the case with SSE. The client can only receive data via *HTTP*. This standard is supported by all browsers (unless *IE* is considered a browser) and was defined in 2009 by W3C.
