@@ -1,27 +1,13 @@
 ---
 title: "Server-Sent Events vs JSON-Stream"
-subtitle: ""
 date: 2019-07-16T17:48:17+02:00
 lastmod: 2021-05-26T17:48:17+02:00
 draft: false
 author: "Auryn Engel"
-authorLink: "/about"
 
 tags: ["Json"]
 categories: ["Development"]
 
-hiddenFromHomePage: false
-hiddenFromSearch: false
-
-featuredImage: ""
-featuredImagePreview: ""
-
-toc:
-  enable: true
-math:
-  enable: false
-lightgallery: false
-license: ""
 ---
 In [this](/posts/reactive-stream-with-spring-boot-and-rx-java-in-kotlin/) last post, I explained why you should use streaming instead of blocking. But what about Server-Sent Events?
 <!--more-->

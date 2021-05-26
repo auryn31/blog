@@ -1,27 +1,13 @@
 ---
 title: "HowTo: Reactive Stream with Spring Boot and RxJava in Kotlin"
-subtitle: ""
 date: 2019-05-18T19:24:01+02:00
 lastmod: 2021-05-26T19:24:01+02:00
 draft: false
 author: "Auryn Engel"
-authorLink: "/about"
 
 tags: ["HowTo", "Kotlin", "Spring Boot", "RxJava"]
 categories: ["Development"]
 
-hiddenFromHomePage: false
-hiddenFromSearch: false
-
-featuredImage: ""
-featuredImagePreview: ""
-
-toc:
-  enable: true
-math:
-  enable: false
-lightgallery: false
-license: ""
 ---
 
 Everyone knows that, you open a website and load and load it. 😣

@@ -1,27 +1,13 @@
 ---
 title: "HowTo: Stream large data with Spring Boot and RxJava in Kotlin"
-subtitle: ""
 date: 2019-07-10T17:40:18+02:00
 lastmod: 2021-05-26T17:40:18+02:00
 draft: false
 author: "Auryn Engel"
-authorLink: "/about"
 
 tags: ["HowTo", "Kotlin", "Spring Boot"]
 categories: ["Development"]
 
-hiddenFromHomePage: false
-hiddenFromSearch: false
-
-featuredImage: ""
-featuredImagePreview: ""
-
-toc:
-  enable: true
-math:
-  enable: false
-lightgallery: false
-license: ""
 ---
 Imagine you have a very large amount of data that you want to make available at a rest-endpoint. Then there are two possibilities.
 <!--more-->

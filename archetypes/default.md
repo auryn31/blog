@@ -1,28 +1,14 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
-subtitle: ""
+description: ""
 date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: true
-author: ""
-authorLink: ""
-description: ""
+author: "Auryn Engel"
 
 tags: []
 categories: []
 
-hiddenFromHomePage: false
-hiddenFromSearch: false
-
-featuredImage: ""
-featuredImagePreview: ""
-
-toc:
-  enable: true
-math:
-  enable: false
-lightgallery: false
-license: ""
 ---
 
 <!--more-->

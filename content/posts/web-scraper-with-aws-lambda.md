@@ -1,27 +1,13 @@
 ---
 title: "HowTo: Create a web-scraper with AWS Lambda"
-subtitle: ""
 date: 2019-09-25T13:39:32+02:00
 lastmod: 2021-05-25T13:39:32+02:00
 draft: false
 author: "Auryn Engel"
-authorLink: "/about"
 
 tags: ["Tutorial", "HowTo", "AWS"]
 categories: ["Development"]
 
-hiddenFromHomePage: false
-hiddenFromSearch: false
-
-featuredImage: ""
-featuredImagePreview: ""
-
-toc:
-  enable: true
-math:
-  enable: false
-lightgallery: false
-license: ""
 ---
 In my last article I introduced AWS Lambda and how to create your first Lambda function. Now I want to develop a more useful function in this article.
 

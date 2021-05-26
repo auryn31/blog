@@ -2,19 +2,11 @@
 title: "Wildfly in a Cluster with Docker"
 date: 2019-04-26T15:52:23+02:00
 draft: false
-subtitle: ""
 author: "Auryn Engel"
-authorLink: "/about"
 
 tags: ["Wildfly", "Coding", "Java"]
 categories: ["Development"]
 
-hiddenFromHomePage: false
-
-# featuredImage: "/img/container.jpg"
-# featuredImagePreview: "/img/container.jpg"
-
-lightgallery: true
 ---
 
 Operating Wildfly in a docker container isn’t difficult. The description can be found on the official docker image site from jboss-wildfly. This blog post describes how to start several containers with a wildfly and how to connect them to a cluster. Unfortunately, the Docker-jboss document does not describe how to merge wildflys into a cluster unless they are running on the same machine.

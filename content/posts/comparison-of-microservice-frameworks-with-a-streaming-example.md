@@ -1,27 +1,13 @@
 ---
 title: "Comparison of Microservice Frameworks with a Streaming Example"
-subtitle: ""
 date: 2019-07-08T21:10:50+02:00
 lastmod: 2021-05-26T21:10:50+02:00
 draft: false
 author: "Auryn Engel"
-authorLink: "/about"
 
-tags: []
-categories: []
+tags: ["Java", "Spring Boot"]
+categories: ["Development"]
 
-hiddenFromHomePage: false
-hiddenFromSearch: false
-
-featuredImage: ""
-featuredImagePreview: ""
-
-toc:
-  enable: true
-math:
-  enable: false
-lightgallery: false
-license: ""
 ---
 
 In my last [post](/posts/reactive-stream-with-spring-boot-and-rx-java-in-kotlin/), I presented some interesting applications of reactive programming with RxJava and when/why you should use it.

@@ -1,28 +1,14 @@
 ---
 title: "HowTo: Getting started with AWS Lambda"
-subtitle: "Create your first AWS Lambda function"
+description: "Create your first AWS Lambda function"
 date: 2019-09-21T14:12:35+02:00
 lastmod: 2021-05-25T14:12:35+02:00
 draft: false
-author: ""
-authorLink: ""
-description: ""
+author: "Auryn Engel"
 
 tags: ["Tutorial", "HowTo", "AWS"]
 categories: ["Development"]
 
-hiddenFromHomePage: false
-hiddenFromSearch: false
-
-featuredImage: ""
-featuredImagePreview: ""
-
-toc:
-  enable: true
-math:
-  enable: false
-lightgallery: false
-license: ""
 ---
 AWS Lambda has long been a topic I would like to deal with. Now I have watched and started several tutorials. But most of them were either too long or too short. They all showed how to upload the function, but not how to test it locally.
 

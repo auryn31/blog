@@ -1,27 +1,12 @@
 ---
 title: "5 Learnings from the #wirvsvirushack from a developer perspective"
-subtitle: ""
 date: 2020-03-29T17:06:36+02:00
 lastmod: 2021-05-24T17:06:36+02:00
 draft: false
 author: "Auryn Engel"
-authorLink: "/about"
-
 tags: ["Hackathon"]
 categories: ["Development"]
 
-hiddenFromHomePage: false
-hiddenFromSearch: false
-
-featuredImage: ""
-featuredImagePreview: ""
-
-toc:
-  enable: true
-math:
-  enable: false
-lightgallery: false
-license: ""
 ---
 
 Germany organised the hackathon #wirvsvirushack on 20th March. About 42 thousand people from all over Germany took part in the hackathon to help in the corona crisis with new digital ideas. The goal was to create a prototype or an application that can help in the crisis.

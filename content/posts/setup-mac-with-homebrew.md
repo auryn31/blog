@@ -1,27 +1,13 @@
 ---
 title: "Set up your Mac with Homebrew"
-subtitle: ""
 date: 2020-01-07T17:19:23+02:00
 lastmod: 2021-05-24T17:19:23+02:00
 draft: false
 author: "Auryn Engel"
-authorLink: "/about"
 
 tags: ["Mac", "Setup", "Brew"]
 categories: ["Development"]
 
-hiddenFromHomePage: false
-hiddenFromSearch: false
-
-featuredImage: ""
-featuredImagePreview: ""
-
-toc:
-  enable: true
-math:
-  enable: false
-lightgallery: false
-license: ""
 ---
 
 Every time I get a new Mac, I get upset that I have to set it up again.
