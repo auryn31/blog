@@ -6,8 +6,8 @@ lastmod: 2021-05-26T23:35:10+02:00
 draft: false
 author: "Auryn Engel"
 
-tags: []
-categories: []
+tags: ["HTML", "JavaScript", "CSS"]
+categories: ["Development"]
 
 ---
 My blog is based on hugo. And since I use google analytics, I need a cookie notice to be gdpr compliant.
