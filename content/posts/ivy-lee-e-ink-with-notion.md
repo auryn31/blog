@@ -19,7 +19,7 @@ When Schwab asked him how he could create more, lee allegedly asked for just a f
 
 And the method worked so well that Schwab paid him $25,000 as a thank you (today that would be about $400,000).
 
-## The method
+## The Method
 
 The method is quite simple. It consists of the following six steps:
 
@@ -35,27 +35,29 @@ If you want to find out more about the method and how it works, you can read mor
 
 ## How I use it
 
-To increase my productivity, I now also use the method. However, I don't apply it quite as stringently as described above.
+To increase my productivity, I use this method. However, I don't apply it quite as stringently as described above.
 
-The book [make time](https://maketime.blog/) by Jake Knapp and John Zeratsky takes up the method. They say, that you should only look for one highlight for the day and not be so strict about the other items you write down. However, you should place one task above everything else and work through it.
+The book [Make Time](https://maketime.blog/) by Jake Knapp and John Zeratsky takes up the method. But they say that you should only look for **one** highlight of the day and not be so strict about the other items you write down. However, you should place one task above everything else and work through it.
 
-That's how I'm using it now. So it's a combination of make time and Ivy Lee. I write down five or six tasks for the next day and mark the highlight.
+That's how I'm using it. So it's a combination of Make Time and the Ivy Lee method. I write down three to five tasks for the next day and mark one as the highlight of the day.
 
-I use it in Notion. So here I have my list of elements and also a calendar with my tasks for the day. It looks something like this:
+For this, I use [Notion](https://www.notion.so/), because I already use Notion a lot as my knowledge database. I dump all my important links in there, write a lot of documentation and remember things in there and use the database feature a lot to categorize and sort all this information.
+
+So here I have my list of elements on my home page with a calendar to see every time I am at the home page. It looks something like this:
 
 ![How it looks like in Notion](/img/ivy-lee-e-ink-with-notion/example.png "How it looks like in Notion")
 
 ## Issue
 
-But my problem is that I don't always have the tasks in front of me. Here, for example, [Ali Abdaal](https://www.youtube.com/channel/UCoOae5nYA7VqaXzerajD0lg) describes that he uses [Zettelkasten](https://www.youtube.com/watch?v=Bry8a_7b9aM).
+But my problem is that I don't always have the tasks in front of me, because I am not that often on the start page. Here, for example, [Ali Abdaal](https://www.youtube.com/channel/UCoOae5nYA7VqaXzerajD0lg) describes that he uses [Zettelkasten](https://www.youtube.com/watch?v=Bry8a_7b9aM).
 
-So I don't always see my tasks or my highlight, but if I have it permanently in front of my eyes, I stick to it and always try to do my most important task.
+So I don't always see my tasks or my highlight of the day, but if I have it permanently in front of my eyes, I stick to it more consistent and always try to do my most important task.
 
 So I thought about just using an e-paper display. And since Notion recently made its [API](https://developers.notion.com/) public, I can finally put my project into practice.
 
-## E-Paper display
+## E-Paper Display
 
-So I decided to use an e-paper display. In the first step, I use the Lilygo board, which is available for less than 20$. The ESP32 already has wifi integrated, which makes everything a little easier. The E-Paper display has 2.13 inch and can display about 7 lines. So perfect for my project.
+So I decided to use an e-paper display. In the first step, I use the Lilygo board, which is available for less than 20$. The ESP32 already has WiFi integrated, which makes everything a little easier. The E-Paper display has 2.13 inch and can display about 7 lines. So perfect for my project.
 
 ## Getting Started
 
@@ -76,7 +78,7 @@ curl -X POST 'https://api.notion.com/v1/search' \
   }'
 ```
 
-Now we should get all pages with the keyword 'tasks'. But we want to make our request on a database. This can look something like this:
+Now we should get all pages with the keyword `tasks`. But we want to make our request on a database. This can look something like this:
 
 ```bash
 curl -X POST 'https://api.notion.com/v1/databases/<YOU-DATABASE-ID>/query' \
@@ -113,12 +115,12 @@ framework = arduino
 monitor_speed = 115200
 upload_speed = 2000000
 lib_deps = 
-	zinggjm/GxEPD2@^1.3.3
-	adafruit/Adafruit BusIO@^1.7.3
-	adafruit/Adafruit GFX Library@^1.10.7
-	bblanchon/ArduinoJson@^6.18.0
-	arduino-libraries/NTPClient@^3.1.0
-	paulstoffregen/Time@^1.6
+ zinggjm/GxEPD2@^1.3.3
+ adafruit/Adafruit BusIO@^1.7.3
+ adafruit/Adafruit GFX Library@^1.10.7
+ bblanchon/ArduinoJson@^6.18.0
+ arduino-libraries/NTPClient@^3.1.0
+ paulstoffregen/Time@^1.6
 ```
 
 And here is the code:
@@ -309,7 +311,7 @@ The result looks like this:
 
 ![Result of the E-Paper](/img/ivy-lee-e-ink-with-notion/tasks.jpg)
 
-I like the idea of having the tasks of the day always on my desk and without any disturbing light and nearly no energy consumption.
+I like the idea of having the tasks of the day always on my desk, without any disturbing light and nearly no energy consumption.
 
 Next up is to update the code to make it more structured and more readable, but at the moment it does what I want and it updates my tasks of the day. I also want to draw a line through the already done tasks, but this is also the next step.
 
