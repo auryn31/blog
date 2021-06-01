@@ -1,6 +1,6 @@
 ---
 title: "How To: Ivy Lee Method with Notion and an E-Paper Display"
-description: ""
+description: "In this article, I created an E-Paper Ivy Lee display to show how I want to increase my productivity."
 date: 2021-05-31T22:45:00+02:00
 lastmod: 2021-05-31T22:45:00+02:00
 draft: false
@@ -13,33 +13,33 @@ categories: ["Development", "Productivity"]
 The Ivy Lee method is a way to be more productive.
 <!--more-->
 
-At the beginning of the 20th century, Charles M. Schwab was one of the richest men in the world. he was president of Bethlehem Steel and was trying to achieve constant improvement in his company. when he was not satisfied with the productivity of his employees, he hired Ivy Lee. A management consultant who was supposed to look for a solution.
+At the beginning of the 20th century, Charles M. Schwab was one of the richest men in the world. he was president of Bethlehem Steel and was trying to achieve constant improvement in his company. when he was not satisfied with the productivity of his employees, he hired Ivy Lee.  A management consultant was supposed to look for a solution.
 
-When Schwab asked him how he could create more, lee allegedly asked for just a few minutes of time with him and each of his managers. The price for his work: whatever it was worth to the company's president. Schwab was supposed to pay Lee only after three months - provided his method had worked.
+When Schwab asked him how he could create more, lee allegedly asked for just a few minutes with him and each of his managers. The price for his work: whatever it was worth to the company's president. Schwab was supposed to pay Lee only after three months - provided his method had worked.
 
 And the method worked so well that Schwab paid him $25,000 as a thank you (today that would be about $400,000).
 
 ## The method
 
-The method is basically quite simple. It consists of the following six steps:
+The method is quite simple. It consists of the following six steps:
 
 1. write down the six most important things for the next day (or today if you are doing it in the morning)
 2. prioritise these six items of their importance
 3. concentrate only on the first task of the list, until it is finished
-4. move to the next taska and keep all not finished tasks for the next day
-5. repead this process every day
+4. move to the next task and keep all not finished tasks for the next day
+5. repeat this process every day
 
-Thats it. There is nothing more. Pretty easy, right?
+That's it. There is nothing more. Pretty easy, right?
 
-If you want to find out more about the method and how it work, you can read more [here](https://jamesclear.com/ivy-lee).
+If you want to find out more about the method and how it works, you can read more [here](https://jamesclear.com/ivy-lee).
 
 ## How I use it
 
-In order to increase my own productivity, I now also use the method. However, I don't apply it quite as stringently as described above.
+To increase my productivity, I now also use the method. However, I don't apply it quite as stringently as described above.
 
 The book [make time](https://maketime.blog/) by Jake Knapp and John Zeratsky takes up the method. They say, that you should only look for one highlight for the day and not be so strict about the other items you write down. However, you should place one task above everything else and work through it.
 
-That's how I'm using it now. So it's a combination of make time and Ivy Lee. I write down fife or six tasks for the next day and mark the highlight.
+That's how I'm using it now. So it's a combination of make time and Ivy Lee. I write down five or six tasks for the next day and mark the highlight.
 
 I use it in Notion. So here I have my list of elements and also a calendar with my tasks for the day. It looks something like this:
 
@@ -55,11 +55,11 @@ So I thought about just using an e-paper display. And since Notion recently made
 
 ## E-Paper display
 
-So I decided to use an e-paper display. In the first step, I use the Lilygo board, which is available for less than 20$. The ESP32 already has wifi integrated, which makes everything a little easier. The E-Paper diplay has 2.13 inch and can display about 7 lines. So perfect for my project.
+So I decided to use an e-paper display. In the first step, I use the Lilygo board, which is available for less than 20$. The ESP32 already has wifi integrated, which makes everything a little easier. The E-Paper display has 2.13 inch and can display about 7 lines. So perfect for my project.
 
 ## Getting Started
 
-First we need to create an integration and allow it to access the database with our tasks. This is described very well [here](https://developers.notion.com/docs), so I won't summarise it again here.
+First, we need to create an integration and allow it to access the database with our tasks. This is described very well [here](https://developers.notion.com/docs), so I won't summarise it again here.
 
 After we have the integration and the token, we should test if everything works. To do this, we run the following query with curl:
 
@@ -99,7 +99,7 @@ curl -X POST 'https://api.notion.com/v1/databases/<YOU-DATABASE-ID>/query' \
   }'
 ```
 
-For more detailed questions, you can read more [here](https://developers.notion.com/reference/post-database-query). The only important thing to know is that in Notion everything is actually a page. So even database entries are basically just pages with parameters.
+For more detailed questions, you can read more [here](https://developers.notion.com/reference/post-database-query). The only important thing to know is that in Notion everything is a page. So even database entries are just pages with parameters.
 
 ## ESP32 Code
 
@@ -309,8 +309,8 @@ The result looks like this:
 
 ![Result of the E-Paper](/img/ivy-lee-e-ink-with-notion/tasks.jpg)
 
-I really like the idea of having the tasks of the day always on my desk and without any disturbing light and nearly no energy consumption.
+I like the idea of having the tasks of the day always on my desk and without any disturbing light and nearly no energy consumption.
 
-Next up is to update the code to make it more structured and more readable, but at the moment it does what i want and it updates my tasks of the day. I also want to draw a line through the already done tasks, but this is also the next step.
+Next up is to update the code to make it more structured and more readable, but at the moment it does what I want and it updates my tasks of the day. I also want to draw a line through the already done tasks, but this is also the next step.
 
 Thanks for reading. If you have any suggestions to improve the performance, the code or something else, let me know. Also feel free to share this post, if you liked the idea.
