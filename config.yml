@@ -38,6 +38,10 @@ params:
     hideSummary: false
     showtoc: true
     tocopen: false
+    
+    DataPrivacy: /data-privacy
+    Imprint: /imprint
+    Cookies: /cookies
 
     label:
         text: "Auryn's Blog"
