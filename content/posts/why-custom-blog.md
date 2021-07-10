@@ -10,7 +10,7 @@ tags: ["medium"]
 categories: ["Personal"]
 
 ---
-Here are my resons to switch from Medium to my own custom blog.
+Here are my reasons to switch from Medium to my own custom blog.
 
 <!--more-->
 

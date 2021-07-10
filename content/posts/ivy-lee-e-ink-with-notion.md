@@ -237,6 +237,7 @@ void loadTasksOfTheDay()
   http.begin(db_url);
 
   http.addHeader("Content-Type", "application/json");
+  http.addHeader("Notion-Version", "2021-05-13");
   http.addHeader("Authorization", notion_secret);
   httpCode = http.POST(jsonData);
 
