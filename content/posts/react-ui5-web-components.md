@@ -15,9 +15,11 @@ categories: ["Development"]
 
 Why am I even writing about a topic that has actually been covered often enough?
 
-Because I google this setup over and over again. I google again and again how to set up a React app, how to use sass or how to add sap ui5.
-Also I often search how to configure a porxy and how to deploy it all to cloud foundry.
-So i'm actually writing this for myself as a reference. If you feel like it, feel free to use it as well. If you have any suggestions for improvement or changes, feel free to share.
+Because I google this setup over and over again 🤯. I google again and again how to set up a React App, how to use SASS or how to add SAP UI5.
+
+Also I often search how to configure a proxy and how to deploy it all to cloud foundry.
+So i'm actually writing this for myself as a reference. If you feel like it, feel free to use it as well.
+If you have any suggestions for improvement or changes, feel free to share or contact me.
 
 ## Create from template
 
@@ -40,7 +42,7 @@ yarn add node-sass -D
 yarn add sass
 ```
 
-## Add [Approuter](https://reactrouter.com/web/guides/quick-start)
+## Add [React Router](https://reactrouter.com/web/guides/quick-start)
 
 ```bash
 yarn add react-router-dom
@@ -53,7 +55,7 @@ yarn add @types/react-router-dom -D
 yarn add axios
 ```
 
-## Serve on Cloud Foundry
+## Serve on Cloud Foundry as Static Content
 
 `Manifest.yaml`:
 
