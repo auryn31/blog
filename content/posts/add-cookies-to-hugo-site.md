@@ -41,18 +41,42 @@ First we add the html part to the file `Papermod/layouts/_default/baseof.html`:
 </div>
 <script>
     const cookieContainer = document.querySelector(".cookie-container");
-      const cookieButton = document.querySelector(".cookie-btn");
+    const cookieButton = document.querySelector(".cookie-btn");
+    const nopeCookieButton = document.querySelector(".nope-cookie-btn");
+    const cookieBannerDisplayed = "cookieBannerDisplayed"
+    const analyticsIsAllowed = "analyticsIsAllowed"
+    const analyics = () => {
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+      ga('create', 'G-Q2W252LSJR', 'auto');
+      ga('send', 'pageview');
+    }
+    if (localStorage.getItem(analyticsIsAllowed) === "true") {
+      analyics();
+    }
 
-      cookieButton.addEventListener("click", () => {
+    cookieButton.addEventListener("click", () => {
       cookieContainer.classList.remove("active");
-      localStorage.setItem("cookieBannerDisplayed", "true");
-      });
+      localStorage.setItem(cookieBannerDisplayed, "true");
+      localStorage.setItem(analyticsIsAllowed, "true");
+      analyics();
+    });
 
-      setTimeout(() => {
-      if (!localStorage.getItem("cookieBannerDisplayed")) {
-          cookieContainer.classList.add("active");
+    nopeCookieButton.addEventListener("click", () => {
+      cookieContainer.classList.remove("active");
+      localStorage.setItem(cookieBannerDisplayed, "true");
+      localStorage.setItem(analyticsIsAllowed, "false");
+    });
+
+    setTimeout(() => {
+      if (!localStorage.getItem(cookieBannerDisplayed)) {
+        cookieContainer.classList.add("active");
       }
-      }, 1000);
+    }, 100);
 </script>
 ```
 

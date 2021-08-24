@@ -8,7 +8,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: G-Q2W252LSJR
+# googleAnalytics: G-Q2W252LSJR
 
 minify:
     disableXML: true

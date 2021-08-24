@@ -10,11 +10,12 @@ math:
 ---
 
 ## INTRODUCTION
-This blog may use cookies, web beacons, tracking pixels, and other tracking technologies when you visit our website [Name of Website.com], including any other media form, media channel, mobile website, or mobile application related or connected thereto (collectively, the “Site”) to help customize the Site and improve your experience. 
 
-We reserve the right to make changes to this Cookie Policy at any time and for any reason. We will alert you about any changes by updating the “Last Updated” date of this Cookie Policy. Any changes or modifications will be effective immediately upon posting the updated Cookie Policy on the Site, and you waive the right to receive specific notice of each such change or modification. 
+This blog may use cookies, web beacons, tracking pixels, and other tracking technologies when you visit our website [Name of Website.com], including any other media form, media channel, mobile website, or mobile application related or connected thereto (collectively, the “Site”) to help customize the Site and improve your experience.
 
-You are encouraged to periodically review this Cookie Policy to stay informed of updates. You will be deemed to have been made aware of, will be subject to, and will be deemed to have accepted the changes in any revised Cookie Policy by your continued use of the Site after the date such revised Cookie Policy is posted. 
+We reserve the right to make changes to this Cookie Policy at any time and for any reason. We will alert you about any changes by updating the “Last Updated” date of this Cookie Policy. Any changes or modifications will be effective immediately upon posting the updated Cookie Policy on the Site, and you waive the right to receive specific notice of each such change or modification.
+
+You are encouraged to periodically review this Cookie Policy to stay informed of updates. You will be deemed to have been made aware of, will be subject to, and will be deemed to have accepted the changes in any revised Cookie Policy by your continued use of the Site after the date such revised Cookie Policy is posted.
 
 This cookie policy was created using Termly.
 
@@ -28,7 +29,7 @@ The following types of cookies may be used when you visit the Site:
 
 ## Advertising Cookies
 
-Advertising cookies are placed on your computer by advertisers and ad servers in order to display advertisements that are most likely to be of interest to you. These cookies allow advertisers and ad servers to gather information about your visits to the Site and other websites, alternate the ads sent to a specific computer, and track how often an ad has been viewed and by whom. These cookies are linked to a computer and do not gather any personal information about you. 
+Advertising cookies are placed on your computer by advertisers and ad servers in order to display advertisements that are most likely to be of interest to you. These cookies allow advertisers and ad servers to gather information about your visits to the Site and other websites, alternate the ads sent to a specific computer, and track how often an ad has been viewed and by whom. These cookies are linked to a computer and do not gather any personal information about you.
 
 ## Analytics Cookies
 
@@ -44,7 +45,7 @@ Personalization cookies are used to recognize repeat visitors to the Site. We us
 
 ## Security Cookies
 
-## Security cookies help identify and prevent security risks. We use these cookies to authenticate users and protect user data from unauthorized parties.
+## Security cookies help identify and prevent security risks. We use these cookies to authenticate users and protect user data from unauthorized parties
 
 ## Site Management Cookies
 
