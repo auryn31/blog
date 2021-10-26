@@ -8,6 +8,7 @@ author: "Auryn Engel"
 
 tags: ["medium"]
 categories: ["Personal"]
+showtoc: false
 
 ---
 Here are my reasons to switch from Medium to my own custom blog.
