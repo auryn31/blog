@@ -8,7 +8,6 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-# googleAnalytics: G-Q2W252LSJR
 
 minify:
     disableXML: true
@@ -59,10 +58,6 @@ params:
           url: "https://github.com/auryn31"
         - name: linkedin
           url: "https://www.linkedin.com/in/auryn-engel/"
-
-    analytics:
-        google:
-            SiteVerificationTag: "4t21lUFHzcfilprtuN8GOOU_qzTDkZmxSOrvYCHBp08"
 
     cover:
         hidden: true # hide everywhere but not in structured data
