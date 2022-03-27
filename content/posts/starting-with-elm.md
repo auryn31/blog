@@ -6,8 +6,8 @@ lastmod: 2022-03-15T17:01:40+01:00
 draft: false
 author: "Auryn Engel"
 
-tags: []
-categories: []
+tags: ["HTML", "JavaScript", "CSS", "Elm"]
+categories: ["Development"]
 
 ---
 ## Why bother?
