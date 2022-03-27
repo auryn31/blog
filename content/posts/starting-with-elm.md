@@ -14,7 +14,7 @@ categories: ["Development"]
 
 The first time I tried elm was 2018, but at that time my frontend experience was still very small. At that time I had implemented a larger project in `react` and gained my first experience with `vue`. Elm had just overwhelmed me and I didn't know the concepts. So I was choosing to react all the time. For my private projects as well as for my professional ones.
 
-My first fundamental functional experience was at the university with `haskell`. At that time I was overwhelmed from it like 2018 with `elm`. It was a completely different approach than OOP with `Java` or `C`. I hated it.
+My first fundamental functional experience was at the university with `haskell`. At that time I was overwhelmed from it like 2018 with `elm`. It was a completely different approach than OOP with `Java` or some basic lowlevel `C`. I hated it.
 
 Then, 4 years later and 3 years more professional experience, I saw [this](https://www.youtube.com/watch?v=3n17wHe5wEw) talk from **Richard Feldman**. It opened my eyes. I had already some experience with rust in a professional context and was already hooked to functional programming. But I didn't see any need for pure functional for frontends. I mean, you already can write functional components in react, so why bother?
 
@@ -78,7 +78,7 @@ The part with css is more complex. There are different ways of doing so. I prefe
 
 Also really helpful was [Elm-live](https://www.elm-live.com/). With the `---debug` command you can easily jump between the states and take a look at the views. It helped a lot during dev, also with the proxy command `--proxy-prefix=/api --proxy-host=http://localhost:8080/api`. My standard command during dev was: `elm-live src/Main.elm --proxy-prefix=/api --proxy-host=http://localhost:8080/api --open --start-page=resources/index.html -- --output=app.js --debug`. This build the `Main.elm` file into the `app.js` and opened my start page. I also used and `index.html` file to include some external resources.
 
-## Conclution
+## Conclusion
 
 That is all for the moment. I am really in love with `elm` as I was with `svelt` after I used it the first time. There are new languages, frameworks, and concepts all the time. I try my best to be open-minded and think there is a better way of frontend development than react. Until now, I saw multiple ones. I would prefer `svelte` and also I would prefer `elm`. At the moment I would prefer `elm` over all the others. Mostly because of its type secure and immutability. But in projects, it always depends on the environment. For myself, I choose `elm` over all the others. For projects with clients and coworkers who have no experience in `elm` or in functional languages in general, I think `React` is still the most spread library to use.
 
