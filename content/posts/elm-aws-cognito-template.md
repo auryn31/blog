@@ -8,7 +8,7 @@ author: "Auryn Engel"
 
 tags: ["Elm", "AWS", "Cognito", "TypeScript"]
 categories: ["development", "template"]
-
+showtoc: false
 ---
 
 For a current small project I needed a login/IAM provider. Here I immediately thought of aws cognito. The project is completely on aws, so I wanted to set the login to cognito. Since I work with Elm, I went directly to the search, for libs and examples. But as so often in Elm, it's just faster to do it yourself. Here you also have complete control over the source code. After a little research I found the [article](https://medium.com/@charlotteneill/elm-with-aws-cognito-8eae4fb858d0) by Charlotte Neill.
