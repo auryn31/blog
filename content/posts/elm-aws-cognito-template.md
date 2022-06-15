@@ -1,8 +1,8 @@
 ---
 title: "Elm AWS Cognito Login/Register Template with TypeScript"
 description: "Example/Template of how to use AWS Cognito with Elm"
-date: 2022-06-15T11:01:16+02:00
-lastmod: 2022-06-15T11:01:16+02:00
+date: 2022-06-15T17:01:16+02:00
+lastmod: 2022-06-15T17:01:16+02:00
 draft: false
 author: "Auryn Engel"
 
