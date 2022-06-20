@@ -1,5 +1,5 @@
 ---
-title: "Elm Dapp Gun Js"
+title: "An Elm Compliments DApp with Gun.js"
 description: ""
 date: 2022-06-20T22:00:00+02:00
 lastmod: 2022-06-20T22:00:00+02:00
