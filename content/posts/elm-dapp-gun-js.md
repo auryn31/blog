@@ -186,6 +186,8 @@ I found it a funny project and am curious about what you add. Here is the URL no
 
 Have fun :)
 
+The source code is on [github](https://github.com/auryn31/complimente-dapp-elm-gun).
+
 As it stands at the time of writing this blog:
 
 ![compliments.dapp.auryn.dev](/img/compliments/compliments.png)
